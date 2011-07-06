@@ -4,3 +4,17 @@ development:
   username: root
   password: 
   host: localhost
+  
+test:
+  adapter: mysql
+  database: test_app2_test
+  username: root
+  password: 
+  host: localhost
+    
+production:
+  adapter: mysql
+  database: production_app2_develoment
+  username: root
+  password: 
+  host: localhost
